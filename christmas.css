@@ -1,0 +1,88 @@
+body {
+background-color: #0e0c1c;
+color: white;
+text-align: center;
+font-family: Arial, sans-serif;
+padding: 40px 20px;
+}
+
+.lights-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-bottom: 30px;
+}
+
+.bulb {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bulb.on {
+box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6);
+}
+
+.red {
+background-color: red;
+}
+
+.yellow {
+background-color: yellow;
+}
+
+.green {
+background-color: green;
+}
+
+.cyan {
+background-color: cyan;
+}
+
+.title {
+font-size: 48px;
+font-weight: bold;
+color: white;
+text-shadow: 0 0 15px white;
+margin-bottom: 30px;
+}
+
+.controls {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-wrap: wrap;
+}
+
+.btn {
+background: none;
+border: 2px solid #b19cd9;
+color: white;
+padding: 10px 20px;
+border-radius: 50px;
+cursor: pointer;
+font-size: 16px;
+}
+.btn1, .btn2 {
+background: none;
+border: 2px solid #b19cd9;
+color: white;
+padding: 10px 20px;
+border-radius: 50px;
+cursor: pointer;
+font-size: 16px;
+}
+
+input[type="text"] {
+padding: 10px;
+border: none;
+border-radius: 8px;
+font-size: 14px;
+width: 180px;
+}
+
+.run {
+border-radius: 5px;
+}
